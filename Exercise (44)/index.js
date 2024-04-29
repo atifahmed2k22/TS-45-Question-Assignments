@@ -1,0 +1,12 @@
+// Question 44: Sandwiches
+function Sandwich(...items) {
+    console.log("Here's your sandwich order:");
+    for (let item of items) {
+        console.log(`${item}`);
+    }
+    console.log("Enjoy your delicious sandwich!");
+}
+Sandwich("turkey", "cheddar", "lettuce", "tomato");
+Sandwich("peanut butter", "jelly");
+Sandwich("grilled cheese", "bacon");
+export {};

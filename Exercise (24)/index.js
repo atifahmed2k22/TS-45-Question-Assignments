@@ -1,0 +1,25 @@
+// Question 24: More conditional tests
+let veg1 = "Potato";
+let veg2 = "Tomato";
+console.log(veg1 === veg2);
+console.log(veg1 !== veg2);
+let myName = "ATIF AHMED";
+let lowerCaseString = myName.toLowerCase();
+console.log(lowerCaseString === "ATIF AHMED");
+console.log(lowerCaseString !== "ATIF AHMED");
+let num1 = 5;
+let num2 = 10;
+console.log(num1 === num2);
+console.log(num1 !== num2);
+console.log(num1 > num2);
+console.log(num1 < num2);
+console.log(num1 >= num2);
+console.log(num1 <= num2);
+let g = true;
+let h = false;
+console.log(g && h);
+console.log(g || h);
+let stationary = ["Ink pen", "Pencil", "Eraser", "Sharpner", "Scale"];
+console.log(stationary.includes("Ink pen"));
+console.log(stationary.includes("Ink Pen"));
+export {};

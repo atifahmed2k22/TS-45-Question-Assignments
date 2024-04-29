@@ -1,0 +1,8 @@
+// Question 21: Typescript object
+let person = {
+    fullName: "Atif Ahmed",
+    fatherName: "Ahmed Dawood",
+    age: 20,
+};
+console.log(person);
+export {};
